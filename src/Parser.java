@@ -6,13 +6,14 @@ import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
+import java.util.ArrayList;
 
 /**
  * Created by sidya on 07/01/15.
  */
 public class Parser {
 
-    public String getContentTag(String fileName, String balise) {
+    public ArrayList<String> getContentTag(String fileName, String balise) {
 
         try {
 
@@ -22,17 +23,14 @@ public class Parser {
             Document doc = dBuilder.parse(fXmlFile);
 
             doc.getDocumentElement().normalize();
-            NodeList nList = doc.getElementsByTagName(doc.getDocumentElement().getNodeName());
-            StringBuilder str = new StringBuilder();
-            for (int temp = 0; temp < nList.getLength(); temp++) {
+            NodeList nList = doc.getElementsByTagName(balise);
 
-                Node nNode = nList.item(temp);
-                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-                    Element eElement = (Element) nNode;
-                    str.append(balise+" : " + eElement.getElementsByTagName(balise).item(0).getTextContent());
-                }
+            ArrayList<String> str= new ArrayList<String>();
+            for (int i= 0; i < nList.getLength(); i++){
+                str.add(balise+" : " + nList.item(i).getTextContent());
             }
-            return str.toString();
+
+            return str;
         } catch (Exception e) {
             e.printStackTrace();
             return null;
