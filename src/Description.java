@@ -31,11 +31,4 @@ public class Description {
         }
     }
 
-    public static void main (String[] args){
-
-        String fileName = "description";
-        String balise = "serviceId";
-        description("http://172.31.190.168:55239", fileName);
-        System.out.print(new Parser().getContentTag(fileName, balise));
-    }
 }

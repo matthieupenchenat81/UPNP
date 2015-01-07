@@ -11,11 +11,8 @@ import java.util.ArrayList;
  * Created by sidya on 07/01/15.
  */
 public class Parser {
-
     public ArrayList<String> getContentTag(String fileName, String balise) {
-
         try {
-
             File fXmlFile = new File(fileName);
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -29,7 +26,6 @@ public class Parser {
                 if(!nList.item(i).getFirstChild().getTextContent().replace(" ", "").replace("\n","").equals(""))
                     str.add(balise+" : " + nList.item(i).getFirstChild().getTextContent());
             }
-
             return str;
         } catch (Exception e) {
             e.printStackTrace();
