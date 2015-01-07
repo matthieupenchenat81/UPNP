@@ -14,4 +14,6 @@ public class Device {
     private String urlBase;
     private URL presentationUrl;
     private URL descriptionUrl;
+
+
 }
