@@ -1,3 +1,10 @@
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -33,6 +40,9 @@ public class Description {
 
     public static void main (String[] args){
 
-        description("http://172.31.190.168:64618", "description");
+        String fileName = "description";
+        String balise = "serviceId";
+        description("http://172.31.190.168:64618", fileName);
+        System.out.print(new Parser().getContentTag(fileName, balise));
     }
 }
