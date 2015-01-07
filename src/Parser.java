@@ -3,6 +3,7 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.soap.Node;
 import java.io.File;
 import java.util.ArrayList;
 
@@ -25,7 +26,8 @@ public class Parser {
 
             ArrayList<String> str= new ArrayList<String>();
             for (int i= 0; i < nList.getLength(); i++){
-                str.add(balise+" : " + nList.item(i).getTextContent());
+                if(!nList.item(i).getFirstChild().getTextContent().replace(" ", "").replace("\n","").equals(""))
+                    str.add(balise+" : " + nList.item(i).getFirstChild().getTextContent());
             }
 
             return str;

@@ -35,7 +35,7 @@ public class Description {
 
         String fileName = "description";
         String balise = "serviceId";
-        description("http://172.31.190.168:64618", fileName);
+        description("http://172.31.190.168:55239", fileName);
         System.out.print(new Parser().getContentTag(fileName, balise));
     }
 }
