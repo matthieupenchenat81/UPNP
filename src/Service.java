@@ -12,13 +12,13 @@ public class Service {
     private URL eventSubUrl;
     private URL descriptionURL;
 
-    public Service(String f, String reg) {
+    public Service(String f, String reg, String url) {
         Parser p = new Parser();
         for(String s : p.getContentTag(f, "SCPDURL"))
         {
-            if(f.contains(reg)) {
+            if(s.contains(reg)) {
                 try {
-                    descriptionURL = new URL(s);
+                    descriptionURL = new URL(url+s);
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 }

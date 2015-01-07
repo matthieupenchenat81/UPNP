@@ -6,7 +6,10 @@ public class Main {
 
         String fileName = "description";
         String balise = "serviceId";
-        Description.description("http://172.31.190.168:55239", fileName);
-        System.out.print(new Parser().getContentTag(fileName, balise));
+        String url = "http://172.31.190.168:55239/";
+        Description.description(url, fileName);
+        //System.out.print(new Parser().getContentTag(fileName, balise));
+
+        System.out.print(new Service(fileName,"ContentDirectory",url).getUrlSCPD());
     }
 }

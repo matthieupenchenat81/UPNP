@@ -24,7 +24,7 @@ public class Parser {
             ArrayList<String> str= new ArrayList<String>();
             for (int i= 0; i < nList.getLength(); i++){
                 if(!nList.item(i).getFirstChild().getTextContent().replace(" ", "").replace("\n","").equals(""))
-                    str.add(balise+" : " + nList.item(i).getFirstChild().getTextContent());
+                    str.add(nList.item(i).getFirstChild().getTextContent());
             }
             return str;
         } catch (Exception e) {
