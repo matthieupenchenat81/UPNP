@@ -24,6 +24,17 @@ public class Service {
                 }
             }
         }
+        for(String s : p.getContentTag("controlURL"))
+        {
+            if(s.contains(reg)) {
+                try {
+                    controlURL = new URL(url+s);
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
     }
 
 
@@ -37,4 +48,10 @@ public class Service {
     public URL getUrlSCPD () {
         return descriptionURL;
     }
+
+    public URL getUrlControle () {
+        return controlURL;
+    }
+
+
 }
