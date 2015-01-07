@@ -23,7 +23,7 @@ public class Browse {
 			String BrowseFlag = "BrowseDirectChildren";
 														
 			String METHOD = "Browse";
-			String ACTION_URI = "172.31.190.168:64618";// A définir ;
+			String ACTION_URI = "";// A définir ;
 			String ACTION_URII = "urn:schemas-upnp-org:service:ContentDirectory:1";
 
 			Service service = new Service();
