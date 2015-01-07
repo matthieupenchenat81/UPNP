@@ -10,6 +10,7 @@ public class Main {
         Description.description(url, fileName);
         //System.out.print(new Parser().getContentTag(fileName, balise));
 
-        System.out.print(new Service(fileName,"ContentDirectory",url).getUrlSCPD());
+        System.out.print(new Service(fileName,"ContentDirectory",url).getActions());
+
     }
 }

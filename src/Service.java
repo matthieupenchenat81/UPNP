@@ -13,8 +13,8 @@ public class Service {
     private URL descriptionURL;
 
     public Service(String f, String reg, String url) {
-        Parser p = new Parser();
-        for(String s : p.getContentTag(f, "SCPDURL"))
+        Parser p = new Parser(f);
+        for(String s : p.getContentTag("SCPDURL"))
         {
             if(s.contains(reg)) {
                 try {
@@ -24,6 +24,14 @@ public class Service {
                 }
             }
         }
+    }
+
+
+    public ArrayList<String> getActions() {
+
+        Description.description(descriptionURL.toString(), "service");
+        Parser p = new Parser("service");
+        return p.getContentTagOfParents("name", "action");
     }
 
     public URL getUrlSCPD () {
