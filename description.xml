@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+   <specVersion>
+      <major>1</major>
+      <minor>0</minor>
+   </specVersion>
+   <device>
+      <deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
+      <INMPR03>1.0</INMPR03>
+      <friendlyName>Intel's Media Server (BANKAI)</friendlyName>
+      <manufacturer>Intel Corporation</manufacturer>
+      <manufacturerURL>http://www.intel.com</manufacturerURL>
+      <modelDescription>Provides content through UPnP ContentDirectory service</modelDescription>
+      <modelName>XPC Media Server</modelName>
+      <modelNumber>0.765</modelNumber>
+      <modelURL>http://www.intel.com/upnp/MediaServerDevice</modelURL>
+      <UDN>uuid:bc245ac4-a03f-49aa-a0f8-1c54aad31965</UDN>
+      <serviceList>
+         <service>
+            <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+            <serviceId>urn:schemas-upnp-org:service:ConnectionManager</serviceId>
+            <SCPDURL>_urn:schemas-upnp-org:service:ConnectionManager_scpd.xml</SCPDURL>
+            <controlURL>_urn:schemas-upnp-org:service:ConnectionManager_control</controlURL>
+            <eventSubURL>_urn:schemas-upnp-org:service:ConnectionManager_event</eventSubURL>
+         </service>
+         <service>
+            <serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType>
+            <serviceId>urn:schemas-upnp-org:service:ContentDirectory</serviceId>
+            <SCPDURL>_urn:schemas-upnp-org:service:ContentDirectory_scpd.xml</SCPDURL>
+            <controlURL>_urn:schemas-upnp-org:service:ContentDirectory_control</controlURL>
+            <eventSubURL>_urn:schemas-upnp-org:service:ContentDirectory_event</eventSubURL>
+         </service>
+      </serviceList>
+   </device>
+</root>
