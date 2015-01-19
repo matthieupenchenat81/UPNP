@@ -21,7 +21,7 @@ public class Main {
 
         String fileName = "description";
         String balise = "serviceId";
-        String url = "http://172.31.190.168:56552/";
+        String url = "http://172.31.190.168:63352/";
         Description.description(url, fileName);
         //System.out.print(new Parser().getContentTag(fileName, balise));
 
@@ -29,12 +29,13 @@ public class Main {
         System.out.println(new Service(fileName, "ContentDirectory", url).getActions());
         System.out.println(new Service(fileName, "ContentDirectory", url).getUrlControle());
 
+        url = "http://172.31.190.168:63352";
         Browse B = new Browse();
-        String browse = B.ActionBrowse("0", "*", "", "http://172.31.190.168:56552", "_urn:schemas-upnp-org:service:ContentDirectory_control");
+        String browse = B.ActionBrowse("0", "*", "", url, "_urn:schemas-upnp-org:service:ContentDirectory_control");
 
         Search S = new Search();
         String containerId = "0000000000000005";
-        String search = S.ActionSearch(containerId, "", "*", "", "http://172.31.190.168:56552", "_urn:schemas-upnp-org:service:ContentDirectory_control");
+        String search = S.ActionSearch(containerId, "", "*", "", url, "_urn:schemas-upnp-org:service:ContentDirectory_control");
 
         writeOutputInFile("soapBrowse", browse);
         writeOutputInFile(containerId, search);
