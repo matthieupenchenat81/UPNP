@@ -25,18 +25,18 @@ public class Main {
         Description.description(url, fileName);
         //System.out.print(new Parser().getContentTag(fileName, balise));
 
-        //System.out.println(new Service(fileName,"ContentDirectory",url).getUrlSCPD());
-        //System.out.println(new Service(fileName, "ContentDirectory", url).getActions());
-        //System.out.println(new Service(fileName, "ContentDirectory", url).getUrlControle());
+        System.out.println(new Service(fileName,"ContentDirectory",url).getUrlSCPD());
+        System.out.println(new Service(fileName, "ContentDirectory", url).getActions());
+        System.out.println(new Service(fileName, "ContentDirectory", url).getUrlControle());
 
         Browse B = new Browse();
-        String browse = B.ActionBrowse("0", "*", "", "http://172.31.190.168:56552", "_urn:schemas-upnp-org:service:ContentDirectory_control").toString();
+        String browse = B.ActionBrowse("0", "*", "", "http://172.31.190.168:56552", "_urn:schemas-upnp-org:service:ContentDirectory_control");
 
         Search S = new Search();
-        String search = S.ActionSearch("0000000000000005", "", "*", "", "http://172.31.190.168:56552", "_urn‐schemas‐upnp‐org‐service‐ContentDirectory_control").toString();
-        //String ContainerID,String SearchCriteria,String Filter,String SortCriteria,String IP,String controlURL
+        String containerId = "0000000000000005";
+        String search = S.ActionSearch(containerId, "", "*", "", "http://172.31.190.168:56552", "_urn:schemas-upnp-org:service:ContentDirectory_control");
 
         writeOutputInFile("soapBrowse", browse);
-        writeOutputInFile("soapSearch", search);
+        writeOutputInFile(containerId, search);
     }
 }

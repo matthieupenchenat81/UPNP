@@ -86,8 +86,6 @@ public class Search {
 					
 
 			    results = (String) call.invoke (new Object [] {ContainerID,SearchCriteria,Filter,"0","0",SortCriteria});
-
-			   System.out.println("Retour de Hello World " + results);
 			
             }
 			  catch( ServiceException e )
