@@ -23,12 +23,12 @@ public class Browse {
 			String BrowseFlag = "BrowseDirectChildren";
 														
 			String METHOD = "Browse";
-			String ACTION_URI = "";// A définir ;
+			String ACTION_URI = IP;// A définir ;
 			String ACTION_URII = "urn:schemas-upnp-org:service:ContentDirectory:1";
 
 			Service service = new Service();
 			Call call = (Call) service.createCall();
-			String endpoint = "";//A définir
+			String endpoint =  IP + "/" + controlURL ;//A définir
 			System.out.println("enpoint:" + endpoint);
 
 			call.setTargetEndpointAddress(new java.net.URL(endpoint));
@@ -89,6 +89,6 @@ public class Browse {
 
 	public static void main(String[] args) {
 		Browse B = new Browse();
-		B.ActionBrowse("0", "*", "", "http://192.168.1.16:50921", "_urn:schemas-upnp-org:service:ContentDirectory_control");
+		System.out.print(B.ActionBrowse("0", "*", "", "http://172.31.190.168:56552", "_urn:schemas-upnp-org:service:ContentDirectory_control"));
 	}
 }
