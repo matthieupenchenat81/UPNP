@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE device [
+        <!ELEMENT device (deviceType,
+                            friendlyName,
+                            manufactuerURL,
+                            modelDescription,
+                            modelName,
+                            modelUrl,
+                            serialNumber,
+                            urlBase,
+                            presentationUrl,
+                            descriptionUrl,
+                            service+)>
+        <!ELEMENT deviceType (#PCDATA)>
+        <!ELEMENT friendlyName (#PCDATA)>
+        <!ELEMENT manufactuerURL (#PCDATA)>
+        <!ELEMENT modelDescription (#PCDATA)>
+        <!ELEMENT modelName (#PCDATA)>
+        <!ELEMENT modelUrl (#PCDATA)>
+        <!ELEMENT serialNumber (#PCDATA)>
+        <!ELEMENT urlBase (#PCDATA)>
+        <!ELEMENT presentationUrl (#PCDATA)>
+        <!ELEMENT descriptionUrl (#PCDATA)>
+        <!ELEMENT service (serviceType,
+                            serviceID,
+                            controlURL,
+                            eventSubUrl,
+                            descriptionURL,
+                            action+)>
+        <!ELEMENT serviceType (#PCDATA)>
+        <!ELEMENT serviceID (#PCDATA)>
+        <!ELEMENT controlURL (#PCDATA)>
+        <!ELEMENT eventSubUrl (#PCDATA)>
+        <!ELEMENT descriptionURL (#PCDATA)>
+        <!ELEMENT action (name,
+                            argument+)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT argument (returnValue,
+                                name,
+                                direction,
+                                value)>
+        <!ELEMENT returnValue (#PCDATA)>
+        <!ELEMENT direction (#PCDATA)>
+        <!ELEMENT value (#PCDATA)>
+]>
