@@ -1,0 +1,241 @@
+<DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/">
+  <item id="0000000000000006" parentID="0000000000000005" restricted="1">
+    <dc:title>01 - Main Title</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/1/0000000000000006/">http://172.31.190.168:63352/MediaServerContent_0/1/0000000000000006/-Unknown-%20-%2001%20-%20Main%20Title.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/1/0000000000000006/">http://169.254.255.251:56201/MediaServerContent_0/1/0000000000000006/-Unknown-%20-%2001%20-%20Main%20Title.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/1/0000000000000006/">http://127.0.0.1:56201/MediaServerContent_0/1/0000000000000006/-Unknown-%20-%2001%20-%20Main%20Title.mp3</res>
+  </item>
+  <item id="0000000000000007" parentID="0000000000000005" restricted="1">
+    <dc:title>02 - Bach - Break</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/2/0000000000000007/">http://172.31.190.168:63352/MediaServerContent_0/2/0000000000000007/-Unknown-%20-%2002%20-%20Bach%20-%20Break.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/2/0000000000000007/">http://169.254.255.251:56201/MediaServerContent_0/2/0000000000000007/-Unknown-%20-%2002%20-%20Bach%20-%20Break.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/2/0000000000000007/">http://127.0.0.1:56201/MediaServerContent_0/2/0000000000000007/-Unknown-%20-%2002%20-%20Bach%20-%20Break.mp3</res>
+  </item>
+  <item id="0000000000000008" parentID="0000000000000005" restricted="1">
+    <dc:title>03 - Moondance</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/3/0000000000000008/">http://172.31.190.168:63352/MediaServerContent_0/3/0000000000000008/-Unknown-%20-%2003%20-%20Moondance.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/3/0000000000000008/">http://169.254.255.251:56201/MediaServerContent_0/3/0000000000000008/-Unknown-%20-%2003%20-%20Moondance.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/3/0000000000000008/">http://127.0.0.1:56201/MediaServerContent_0/3/0000000000000008/-Unknown-%20-%2003%20-%20Moondance.mp3</res>
+  </item>
+  <item id="0000000000000009" parentID="0000000000000005" restricted="1">
+    <dc:title>04 - This Time</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/4/0000000000000009/">http://172.31.190.168:63352/MediaServerContent_0/4/0000000000000009/-Unknown-%20-%2004%20-%20This%20Time.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/4/0000000000000009/">http://169.254.255.251:56201/MediaServerContent_0/4/0000000000000009/-Unknown-%20-%2004%20-%20This%20Time.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/4/0000000000000009/">http://127.0.0.1:56201/MediaServerContent_0/4/0000000000000009/-Unknown-%20-%2004%20-%20This%20Time.mp3</res>
+  </item>
+  <item id="000000000000000A" parentID="0000000000000005" restricted="1">
+    <dc:title>05 - Bari Improv</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/5/000000000000000A/">http://172.31.190.168:63352/MediaServerContent_0/5/000000000000000A/-Unknown-%20-%2005%20-%20Bari%20Improv.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/5/000000000000000A/">http://169.254.255.251:56201/MediaServerContent_0/5/000000000000000A/-Unknown-%20-%2005%20-%20Bari%20Improv.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/5/000000000000000A/">http://127.0.0.1:56201/MediaServerContent_0/5/000000000000000A/-Unknown-%20-%2005%20-%20Bari%20Improv.mp3</res>
+  </item>
+  <item id="000000000000000B" parentID="0000000000000005" restricted="1">
+    <dc:title>06 - Ritual Dance</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/6/000000000000000B/">http://172.31.190.168:63352/MediaServerContent_0/6/000000000000000B/-Unknown-%20-%2006%20-%20Ritual%20Dance.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/6/000000000000000B/">http://169.254.255.251:56201/MediaServerContent_0/6/000000000000000B/-Unknown-%20-%2006%20-%20Ritual%20Dance.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/6/000000000000000B/">http://127.0.0.1:56201/MediaServerContent_0/6/000000000000000B/-Unknown-%20-%2006%20-%20Ritual%20Dance.mp3</res>
+  </item>
+  <item id="000000000000000C" parentID="0000000000000005" restricted="1">
+    <dc:title>07 - Raise It Up</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/7/000000000000000C/">http://172.31.190.168:63352/MediaServerContent_0/7/000000000000000C/-Unknown-%20-%2007%20-%20Raise%20It%20Up.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/7/000000000000000C/">http://169.254.255.251:56201/MediaServerContent_0/7/000000000000000C/-Unknown-%20-%2007%20-%20Raise%20It%20Up.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/7/000000000000000C/">http://127.0.0.1:56201/MediaServerContent_0/7/000000000000000C/-Unknown-%20-%2007%20-%20Raise%20It%20Up.mp3</res>
+  </item>
+  <item id="000000000000000D" parentID="0000000000000005" restricted="1">
+    <dc:title>08 - Dueling Guitars</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/8/000000000000000D/">http://172.31.190.168:63352/MediaServerContent_0/8/000000000000000D/-Unknown-%20-%2008%20-%20Dueling%20Guitars.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/8/000000000000000D/">http://169.254.255.251:56201/MediaServerContent_0/8/000000000000000D/-Unknown-%20-%2008%20-%20Dueling%20Guitars.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/8/000000000000000D/">http://127.0.0.1:56201/MediaServerContent_0/8/000000000000000D/-Unknown-%20-%2008%20-%20Dueling%20Guitars.mp3</res>
+  </item>
+  <item id="000000000000000E" parentID="0000000000000005" restricted="1">
+    <dc:title>09 - Elgar - Something Inside</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/9/000000000000000E/">http://172.31.190.168:63352/MediaServerContent_0/9/000000000000000E/-Unknown-%20-%2009%20-%20Elgar%20-%20Something%20Inside.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/9/000000000000000E/">http://169.254.255.251:56201/MediaServerContent_0/9/000000000000000E/-Unknown-%20-%2009%20-%20Elgar%20-%20Something%20Inside.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/9/000000000000000E/">http://127.0.0.1:56201/MediaServerContent_0/9/000000000000000E/-Unknown-%20-%2009%20-%20Elgar%20-%20Something%20Inside.mp3</res>
+  </item>
+  <item id="000000000000000F" parentID="0000000000000005" restricted="1">
+    <dc:title>10 - August's Rhapsody</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/10/000000000000000F/">http://172.31.190.168:63352/MediaServerContent_0/10/000000000000000F/-Unknown-%20-%2010%20-%20August%27s%20Rhapsody.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/10/000000000000000F/">http://169.254.255.251:56201/MediaServerContent_0/10/000000000000000F/-Unknown-%20-%2010%20-%20August%27s%20Rhapsody.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/10/000000000000000F/">http://127.0.0.1:56201/MediaServerContent_0/10/000000000000000F/-Unknown-%20-%2010%20-%20August%27s%20Rhapsody.mp3</res>
+  </item>
+  <item id="0000000000000010" parentID="0000000000000005" restricted="1">
+    <dc:title>11 - Someday</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/11/0000000000000010/">http://172.31.190.168:63352/MediaServerContent_0/11/0000000000000010/-Unknown-%20-%2011%20-%20Someday.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/11/0000000000000010/">http://169.254.255.251:56201/MediaServerContent_0/11/0000000000000010/-Unknown-%20-%2011%20-%20Someday.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/11/0000000000000010/">http://127.0.0.1:56201/MediaServerContent_0/11/0000000000000010/-Unknown-%20-%2011%20-%20Someday.mp3</res>
+  </item>
+  <item id="0000000000000011" parentID="0000000000000005" restricted="1">
+    <dc:title>12 - King Of The Earth</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/12/0000000000000011/">http://172.31.190.168:63352/MediaServerContent_0/12/0000000000000011/-Unknown-%20-%2012%20-%20King%20Of%20The%20Earth.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/12/0000000000000011/">http://169.254.255.251:56201/MediaServerContent_0/12/0000000000000011/-Unknown-%20-%2012%20-%20King%20Of%20The%20Earth.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/12/0000000000000011/">http://127.0.0.1:56201/MediaServerContent_0/12/0000000000000011/-Unknown-%20-%2012%20-%20King%20Of%20The%20Earth.mp3</res>
+  </item>
+  <item id="0000000000000012" parentID="0000000000000005" restricted="1">
+    <dc:title>13 - God Bless The Child</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/13/0000000000000012/">http://172.31.190.168:63352/MediaServerContent_0/13/0000000000000012/-Unknown-%20-%2013%20-%20God%20Bless%20The%20Child.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/13/0000000000000012/">http://169.254.255.251:56201/MediaServerContent_0/13/0000000000000012/-Unknown-%20-%2013%20-%20God%20Bless%20The%20Child.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/13/0000000000000012/">http://127.0.0.1:56201/MediaServerContent_0/13/0000000000000012/-Unknown-%20-%2013%20-%20God%20Bless%20The%20Child.mp3</res>
+  </item>
+  <item id="0000000000000013" parentID="0000000000000005" restricted="1">
+    <dc:title>14 - La Bamba</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/14/0000000000000013/">http://172.31.190.168:63352/MediaServerContent_0/14/0000000000000013/-Unknown-%20-%2014%20-%20La%20Bamba.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/14/0000000000000013/">http://169.254.255.251:56201/MediaServerContent_0/14/0000000000000013/-Unknown-%20-%2014%20-%20La%20Bamba.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/14/0000000000000013/">http://127.0.0.1:56201/MediaServerContent_0/14/0000000000000013/-Unknown-%20-%2014%20-%20La%20Bamba.mp3</res>
+  </item>
+  <item id="0000000000000014" parentID="0000000000000005" restricted="1">
+    <dc:title>15 - Moondance</dc:title>
+    <upnp:class>object.item.audioItem.musicTrack</upnp:class>
+    <dc:creator>-Unknown-</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://172.31.190.168:63352/MediaServerContent_0/15/0000000000000014/">http://172.31.190.168:63352/MediaServerContent_0/15/0000000000000014/-Unknown-%20-%2015%20-%20Moondance.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://169.254.255.251:56201/MediaServerContent_0/15/0000000000000014/">http://169.254.255.251:56201/MediaServerContent_0/15/0000000000000014/-Unknown-%20-%2015%20-%20Moondance.mp3</res>
+    <res protocolInfo="http-get:*:audio/mpeg:*" importUri="http://127.0.0.1:56201/MediaServerContent_0/15/0000000000000014/">http://127.0.0.1:56201/MediaServerContent_0/15/0000000000000014/-Unknown-%20-%2015%20-%20Moondance.mp3</res>
+  </item>
+  <item id="0000000000000015" parentID="0000000000000005" restricted="1">
+    <dc:title>AlbumArtSmall</dc:title>
+    <upnp:class>object.item.imageItem.photo</upnp:class>
+    <dc:creator>August Rush Soundtrack</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="75x75" size="2405" importUri="http://172.31.190.168:63352/MediaServerContent_0/16/0000000000000015/">http://172.31.190.168:63352/MediaServerContent_0/16/0000000000000015/August%20Rush%20Soundtrack%20-%20AlbumArtSmall.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="2405" importUri="http://172.31.190.168:63352/MediaServerContent_0/17/0000000000000015/">http://172.31.190.168:63352/MediaServerContent_0/17/0000000000000015/August%20Rush%20Soundtrack%20-%20AlbumArtSmall.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="75x75" size="2405" importUri="http://169.254.255.251:56201/MediaServerContent_0/16/0000000000000015/">http://169.254.255.251:56201/MediaServerContent_0/16/0000000000000015/August%20Rush%20Soundtrack%20-%20AlbumArtSmall.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="2405" importUri="http://169.254.255.251:56201/MediaServerContent_0/17/0000000000000015/">http://169.254.255.251:56201/MediaServerContent_0/17/0000000000000015/August%20Rush%20Soundtrack%20-%20AlbumArtSmall.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="75x75" size="2405" importUri="http://127.0.0.1:56201/MediaServerContent_0/16/0000000000000015/">http://127.0.0.1:56201/MediaServerContent_0/16/0000000000000015/August%20Rush%20Soundtrack%20-%20AlbumArtSmall.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="2405" importUri="http://127.0.0.1:56201/MediaServerContent_0/17/0000000000000015/">http://127.0.0.1:56201/MediaServerContent_0/17/0000000000000015/August%20Rush%20Soundtrack%20-%20AlbumArtSmall.jpg</res>
+  </item>
+  <item id="0000000000000016" parentID="0000000000000005" restricted="1">
+    <dc:title>AlbumArt_{0ECAE1B4-DF0B-487A-9940-B0722521B42E}_Large</dc:title>
+    <upnp:class>object.item.imageItem.photo</upnp:class>
+    <dc:creator>August Rush Soundtrack</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="200x200" size="8833" importUri="http://172.31.190.168:63352/MediaServerContent_0/18/0000000000000016/">http://172.31.190.168:63352/MediaServerContent_0/18/0000000000000016/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Large.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="8833" importUri="http://172.31.190.168:63352/MediaServerContent_0/19/0000000000000016/">http://172.31.190.168:63352/MediaServerContent_0/19/0000000000000016/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Large.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="200x200" size="8833" importUri="http://169.254.255.251:56201/MediaServerContent_0/18/0000000000000016/">http://169.254.255.251:56201/MediaServerContent_0/18/0000000000000016/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Large.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="8833" importUri="http://169.254.255.251:56201/MediaServerContent_0/19/0000000000000016/">http://169.254.255.251:56201/MediaServerContent_0/19/0000000000000016/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Large.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="200x200" size="8833" importUri="http://127.0.0.1:56201/MediaServerContent_0/18/0000000000000016/">http://127.0.0.1:56201/MediaServerContent_0/18/0000000000000016/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Large.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="8833" importUri="http://127.0.0.1:56201/MediaServerContent_0/19/0000000000000016/">http://127.0.0.1:56201/MediaServerContent_0/19/0000000000000016/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Large.jpg</res>
+  </item>
+  <item id="0000000000000017" parentID="0000000000000005" restricted="1">
+    <dc:title>AlbumArt_{0ECAE1B4-DF0B-487A-9940-B0722521B42E}_Small</dc:title>
+    <upnp:class>object.item.imageItem.photo</upnp:class>
+    <dc:creator>August Rush Soundtrack</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="75x75" size="2405" importUri="http://172.31.190.168:63352/MediaServerContent_0/20/0000000000000017/">http://172.31.190.168:63352/MediaServerContent_0/20/0000000000000017/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Small.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="2405" importUri="http://172.31.190.168:63352/MediaServerContent_0/21/0000000000000017/">http://172.31.190.168:63352/MediaServerContent_0/21/0000000000000017/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Small.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="75x75" size="2405" importUri="http://169.254.255.251:56201/MediaServerContent_0/20/0000000000000017/">http://169.254.255.251:56201/MediaServerContent_0/20/0000000000000017/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Small.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="2405" importUri="http://169.254.255.251:56201/MediaServerContent_0/21/0000000000000017/">http://169.254.255.251:56201/MediaServerContent_0/21/0000000000000017/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Small.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="75x75" size="2405" importUri="http://127.0.0.1:56201/MediaServerContent_0/20/0000000000000017/">http://127.0.0.1:56201/MediaServerContent_0/20/0000000000000017/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Small.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="2405" importUri="http://127.0.0.1:56201/MediaServerContent_0/21/0000000000000017/">http://127.0.0.1:56201/MediaServerContent_0/21/0000000000000017/August%20Rush%20Soundtrack%20-%20AlbumArt_%7B0ECAE1B4-DF0B-487A-9940-B0722521B42E%7D_Small.jpg</res>
+  </item>
+  <item id="0000000000000018" parentID="0000000000000005" restricted="1">
+    <dc:title>desktop</dc:title>
+    <upnp:class>object.item</upnp:class>
+    <dc:creator>August Rush Soundtrack</dc:creator>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:application/octet-stream:*" size="344" importUri="http://172.31.190.168:63352/MediaServerContent_0/22/0000000000000018/">http://172.31.190.168:63352/MediaServerContent_0/22/0000000000000018/August%20Rush%20Soundtrack%20-%20desktop.ini</res>
+    <res protocolInfo="http-get:*:application/octet-stream:*" size="344" importUri="http://169.254.255.251:56201/MediaServerContent_0/22/0000000000000018/">http://169.254.255.251:56201/MediaServerContent_0/22/0000000000000018/August%20Rush%20Soundtrack%20-%20desktop.ini</res>
+    <res protocolInfo="http-get:*:application/octet-stream:*" size="344" importUri="http://127.0.0.1:56201/MediaServerContent_0/22/0000000000000018/">http://127.0.0.1:56201/MediaServerContent_0/22/0000000000000018/August%20Rush%20Soundtrack%20-%20desktop.ini</res>
+  </item>
+  <item id="0000000000000019" parentID="0000000000000005" restricted="1">
+    <dc:title>Folder</dc:title>
+    <upnp:class>object.item.imageItem.photo</upnp:class>
+    <dc:creator>August Rush Soundtrack</dc:creator>
+    <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+    <dc:date>2013-10-02</dc:date>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="200x200" size="8833" importUri="http://172.31.190.168:63352/MediaServerContent_0/23/0000000000000019/">http://172.31.190.168:63352/MediaServerContent_0/23/0000000000000019/August%20Rush%20Soundtrack%20-%20Folder.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="8833" importUri="http://172.31.190.168:63352/MediaServerContent_0/24/0000000000000019/">http://172.31.190.168:63352/MediaServerContent_0/24/0000000000000019/August%20Rush%20Soundtrack%20-%20Folder.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="200x200" size="8833" importUri="http://169.254.255.251:56201/MediaServerContent_0/23/0000000000000019/">http://169.254.255.251:56201/MediaServerContent_0/23/0000000000000019/August%20Rush%20Soundtrack%20-%20Folder.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="8833" importUri="http://169.254.255.251:56201/MediaServerContent_0/24/0000000000000019/">http://169.254.255.251:56201/MediaServerContent_0/24/0000000000000019/August%20Rush%20Soundtrack%20-%20Folder.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="200x200" size="8833" importUri="http://127.0.0.1:56201/MediaServerContent_0/23/0000000000000019/">http://127.0.0.1:56201/MediaServerContent_0/23/0000000000000019/August%20Rush%20Soundtrack%20-%20Folder.jpg</res>
+    <res protocolInfo="http-get:*:image/jpeg:*" colorDepth="24" resolution="80x80" size="8833" importUri="http://127.0.0.1:56201/MediaServerContent_0/24/0000000000000019/">http://127.0.0.1:56201/MediaServerContent_0/24/0000000000000019/August%20Rush%20Soundtrack%20-%20Folder.jpg</res>
+  </item>
+  <item id="000000000000001A" parentID="0000000000000005" restricted="1">
+    <dc:title>Thumbs</dc:title>
+    <upnp:class>object.item</upnp:class>
+    <dc:creator>August Rush Soundtrack</dc:creator>
+    <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+    <res protocolInfo="http-get:*:application/octet-stream:*" size="7168" importUri="http://172.31.190.168:63352/MediaServerContent_0/25/000000000000001A/">http://172.31.190.168:63352/MediaServerContent_0/25/000000000000001A/August%20Rush%20Soundtrack%20-%20Thumbs.db</res>
+    <res protocolInfo="http-get:*:application/octet-stream:*" size="7168" importUri="http://169.254.255.251:56201/MediaServerContent_0/25/000000000000001A/">http://169.254.255.251:56201/MediaServerContent_0/25/000000000000001A/August%20Rush%20Soundtrack%20-%20Thumbs.db</res>
+    <res protocolInfo="http-get:*:application/octet-stream:*" size="7168" importUri="http://127.0.0.1:56201/MediaServerContent_0/25/000000000000001A/">http://127.0.0.1:56201/MediaServerContent_0/25/000000000000001A/August%20Rush%20Soundtrack%20-%20Thumbs.db</res>
+  </item>
+</DIDL-Lite>
